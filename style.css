@@ -1,0 +1,98 @@
+* {
+    margin: 0%; padding: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(228, 215, 195);
+    font-family: sans-serif;
+}
+.sec1{
+    max-width: 1000px;
+    background-color: cornsilk;
+    margin: 0 auto;
+}
+
+img{
+     border: 3px solid white; 
+     border-radius: 100px;
+     padding: 5px;
+     float: left;
+}
+
+.bio{ float: left;
+    padding: 15px;
+    
+}
+h1,h2,h3,h4,h5,h6{
+    color: rgb(1, 96, 96);
+
+}
+.bio2{
+    float: right;
+    padding: 15px;
+    font-weight: bold;
+}
+.bio2 a:hover{ 
+    color:black;
+}
+.div-clear{ 
+     clear:both}
+
+hr{
+    border: solid black 3px; width: 99%;
+    margin: 10px auto; border-bottom: none;
+}
+
+/* work and personal design starts here */
+
+#personal-section{
+    padding: 10px;
+}
+
+#work-section{
+    padding: 10px;
+}
+.left-div{
+    float: left; width: 50%;
+}
+.right-div { 
+    float: right; width:50%;}
+
+.common hr{  
+    border: solid rgb(69, 69, 69) 1px; width:100%;
+    margin: 5px auto;border-bottom: none;
+}
+/* work design ends here */
+
+
+/* education design starts here */
+#education-section{
+    padding: 10px;
+}
+.edu-left{
+    float:left ; width: 50%;
+}
+.edu-right{
+    float: right; width: 50%;
+    gap: 5px;
+}
+/* education design ends here */
+
+
+/* footer design starts here */
+.footer{
+    text-align: center;
+    background-color: black;
+    margin: 10px;
+    color: white;
+    padding: 15px;
+}
+
+.footer a{
+    color: white;
+    text-decoration: none ;
+    padding: 15px;
+    margin-top: 10px;
+
+}
+/* footer design ends here */
